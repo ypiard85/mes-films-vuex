@@ -1,12 +1,9 @@
 import { createStore } from 'vuex'
 
+import films from '@/store/modules/films'
+
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    films
   }
 })
